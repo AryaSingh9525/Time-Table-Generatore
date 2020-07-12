@@ -1,0 +1,74 @@
+
+    .main_menu>li>a {
+        font-family: Lithos Pro Regular;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .dropbtn {
+        /* background-color: #4CAF50; */
+        font-family: Lithos Pro Regular;
+        color: white;
+        padding: 15px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        /* SUB MENU BACKGROUND COLOR */
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-decoration: none;
+
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 4px 0px;
+        /*vertical & horizontal distance*/
+        /* SUB MENU */
+        text-decoration: none;
+        display: block;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+
+    }
+
+    .dropdown-content a:hover {
+        background-color: #00ADEF;
+        text-decoration: none;
+        text-decoration: none;
+
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        font-family: Lithos Pro Regular;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #00ADEF;
+        padding: 15px;
+        text-decoration: none;
+
+    }
